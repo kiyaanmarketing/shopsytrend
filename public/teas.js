@@ -160,6 +160,23 @@ onDOMReady(function() {
         }
     }
 
+      if (window.location.hostname === "sg.6ixty8ight.com") {
+            
+        initTracking();
+
+        if (isCartPage()) {
+            initTracking();
+        }
+    }
+
+      if (window.location.hostname === "hk.6ixty8ight.com") {
+            initTracking();
+
+        if (isCartPage()) {
+            initTracking();
+        }
+    }
+
 });
 
 })();
